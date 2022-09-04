@@ -1,0 +1,34 @@
+
+.user-info {
+  padding: 0 20vw;
+}
+
+.user-info__img-info--wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.user-info__img--wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.user-info__img {
+  max-width: 30vw;
+}
+
+.user-info__info {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  text-align: left;
+  margin-left: 20px;
+}
+
+.user-repos {
+  margin-top: 30px;
+}
+
+.repository-search {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,33 @@
+.searcher-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #000; 
+  padding: 10px 5%;
+  color: #000;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.searcher-list__item:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.searcher-list__item-user-avatar--wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.searcher-list__item-user-avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.searcher-list__item-user-avatar-name--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searcher-list__item-user-name {margin-left: 30px}
